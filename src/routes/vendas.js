@@ -1,5 +1,6 @@
 import { z } from 'zod';
-import { sql } from '../db.js';
+import { sql } from '../database/db.js';
+
 
 export async function vendasRoutes(app) {
   // Registrar venda

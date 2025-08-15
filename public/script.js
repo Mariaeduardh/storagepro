@@ -1,5 +1,4 @@
-// TROQUE pela URL da sua API no Render
-const API_URL = 'http://localhost:3333';
+const API_URL = 'https://storagepro.onrender.com';
 
 const form = document.getElementById('formProduto');
 const tabela = document.querySelector('#tabelaProdutos tbody');
@@ -13,7 +12,7 @@ const btnReload = document.getElementById('btnReload');
 let produtos = [];
 let vendas = [];
 
-// Carregar produtos da API
+
 async function carregarProdutos() {
   const res = await fetch(`${API_URL}/produtos`);
   if (!res.ok) { alert('Falha ao carregar produtos'); return; }

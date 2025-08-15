@@ -1,4 +1,5 @@
-import { sql } from '../db.js';
+import { sql } from '../database/db.js';
+
 
 export async function relatorioRoutes(app) {
   app.get('/relatorio', async (req, reply) => {
