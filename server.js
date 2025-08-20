@@ -11,9 +11,9 @@ await app.register(cors, {
   origin: [
     'http://localhost:8080',
     'http://localhost:5500',
-    'https://seu-site.netlify.app' // troque pelo domínio real depois
+    'https://warm-heliotrope-eb641b.netlify.app'
   ],
-  methods: ['GET','POST','PUT','DELETE']
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
 });
 
 app.get('/ping', () => ({ ok: true }));
