@@ -11,7 +11,7 @@ await app.register(cors, {
   origin: [
     'http://localhost:8080',
     'http://localhost:5500',
-    'https://warm-heliotrope-eb641b.netlify.app'
+    'https://https://storagepro.netlify.app/'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 });
